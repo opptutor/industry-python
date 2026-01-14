@@ -11,16 +11,6 @@ portfolio-ready projects.
 
 ![](kristi-and-team.png)
 
-This free course is for high-school students and early CS learners who want to
-become internship- and interview-ready by
-building real Python applications. 
-
-You’ll learn through interactive, visual apps where objects, lists, dictionaries,
-and event handlers drive visible behavior, and projects grow from small scripts
-into structured applications you can extend. As you progress, you’ll pick up
-industry-aligned patterns like state management, separation of concerns, async
-programming, and basic deployment workflows. In later chapters, you’ll build
-a real AI chat app using a local language model with streaming responses. 
 
 ## Optional Mentorship
 
@@ -44,6 +34,8 @@ Remote
 ---
 
 ## **About the Opportunity**
+
+![](logo.png)
 
 Join our Python courseware project and help improve a free, beginner-friendly curriculum designed to make students internship- and interview-ready. You’ll work through the course like a student would, identify what’s confusing or missing, and help us refine the lessons so they land cleanly.
 
