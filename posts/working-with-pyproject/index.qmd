@@ -1,0 +1,93 @@
+---
+title: "Working with uv and the pyproject.toml rules"
+author: "Jesse Casman"
+date: "2026-01-14"
+categories: [tips, uv]
+---
+
+### Join our course and get prepared for internships and interviews! [https://industry-python.thinkific.com/products/courses/industry-projects-with-python](https://industry-python.thinkific.com/products/courses/industry-projects-with-python)
+
+### update code samples on learning platform to use flet 0.80 using [uv sync –upgrade](https://docs.astral.sh/uv/reference/cli/#uv-sync)
+
+Download code and unzip
+
+* In the Industry Python course, Chapter 9 \- [https://industry-python.thinkific.com/courses/take/industry-projects-with-python/downloads/71672923-download-code-for-chapter-9](https://industry-python.thinkific.com/courses/take/industry-projects-with-python/downloads/71672923-download-code-for-chapter-9) 
+
+Open with Cursor
+
+* main.py  
+* pyproject.toml
+
+Use uv to sync and run the code
+
+* README as setup and run instructions
+
+### update version of app in pyproject.toml using [uv version](https://docs.astral.sh/uv/reference/cli/#uv-version) or manually update
+
+Use uv to upgrade flet
+
+* Look at header info in pyproject.toml (“before”)  
+* Edit pyproject.toml header
+
+```toml
+dependencies = [  
+   "flet[all]~=0.80",  
+]
+```
+
+* More here: [https://docs.astral.sh/uv/reference/cli/\#uv-sync](https://docs.astral.sh/uv/reference/cli/#uv-sync) 
+
+In `pyproject.toml`, the `~=` operator is the **compatible release** specifier (PEP 440). It means:
+
+* **Minimum version:** `0.80` (inclusive)  
+* **Allowed updates:** newer releases that keep the same “major.minor” (`0.80.x`, `0.81.x`, …)  
+* **Upper bound:** `< 0.81`
+
+```bash
+uv sync --upgrade
+```
+
+`uv sync --upgrade` will try to **update the locked (resolved) versions in `uv.lock` to newer releases**, then sync your environment to match.
+
+What it upgrades is **bounded by your constraints**:
+
+* Your `pyproject.toml` specifiers (e.g., `flet[all]~=0.80` means it can only go up to `<0.81`)
+
+Edit description and add link to course
+
+uv version \--bump patch
+
+* This will increment the version number, which helps us keep track of upgraded code  
+  * major: Increase the major version (e.g., 1.2.3 \=\> 2.0.0)  
+  * minor: Increase the minor version (e.g., 1.2.3 \=\> 1.3.0)  
+  * patch: Increase the patch version (e.g., 1.2.3 \=\> 1.2.4)  
+* You can edit pyproject.toml manually, too
+
+
+Before  
+
+```toml
+[project]  
+name = "dec-vs-imp"  
+version = "0.1.0"  
+description = "Add your description here"  
+readme = "README.md"  
+requires-python = ">=3.12"  
+dependencies = [  
+   "flet[all]>=0.70.0.dev0",  
+]
+```
+
+After  
+
+```toml
+[project]  
+name = "dropdown-snack"  
+version = "0.1.1"  
+description = "Chapter 9 code for the Flet dropdown and snackbar tutorial. Link to course: https://industry-python.thinkific.com/products/courses/industry-projects-with-python"  
+readme = "README.md"  
+requires-python = ">=3.13"  
+dependencies = [  
+   "flet[all]~=0.80",  
+]
+```
