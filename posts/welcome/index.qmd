@@ -1,0 +1,13 @@
+---
+title: "Welcome To Industry Python"
+author: "Craig Oda"
+date: "2026-01-11"
+categories: [news]
+---
+
+A [free, beginner-friendly course](https://industry-python.thinkific.com/) for high-school students and early CS
+learners—learn Python by building real, visual apps and finish with
+portfolio-ready projects.
+
+![](kristi-and-team.png)
+
