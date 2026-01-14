@@ -11,3 +11,131 @@ portfolio-ready projects.
 
 ![](kristi-and-team.png)
 
+This free course is for high-school students and early CS learners who want to
+become internship- and interview-ready by
+building real Python applications. 
+
+You’ll learn through interactive, visual apps where objects, lists, dictionaries,
+and event handlers drive visible behavior, and projects grow from small scripts
+into structured applications you can extend. As you progress, you’ll pick up
+industry-aligned patterns like state management, separation of concerns, async
+programming, and basic deployment workflows. In later chapters, you’ll build
+a real AI chat app using a local language model with streaming responses. 
+
+## Optional Mentorship
+
+
+### **Job Title**
+
+**Unpaid Student Software Developer —Improve Python Courseware Focusing on Internships/Interviews**
+
+### **Employer**
+
+**Oppkey** (Silicon Valley-based Developer Relations firm)
+
+### **Job Type**
+
+Unpaid, part-time (student-friendly scheduling)
+
+### **Location**
+
+Remote
+
+---
+
+## **About the Opportunity**
+
+Join our Python courseware project and help improve a free, beginner-friendly curriculum designed to make students internship- and interview-ready. You’ll work through the course like a student would, identify what’s confusing or missing, and help us refine the lessons so they land cleanly.
+
+While you review and provide feedback, you’ll also build a realistic portfolio project you can confidently demo, explain, and defend in internship and job interviews. You’ll have an industry mentor to help you move faster, avoid dead ends, and build real confidence.
+
+---
+
+## **Note on Software Developer Hiring**
+
+In 2024–2026, the entry-level funnel in software has tightened. New-grad hiring is reportedly a smaller share of hiring than it was in 2019\. This role will help you respond directly to that reality by producing concrete, interview-ready proof of skills: a real portfolio project, documented and fully attributed contributions to courseware, and a mentor-guided workflow you can clearly explain. It also gives you credible signals beyond coursework—GitHub issues/PRs, iterative improvement, and project ownership—that hiring teams increasingly look for at the entry level.
+
+---
+
+## **What You’ll Do**
+
+* Review internship- and interview-focused beginner Python courseware and tutorials  
+* Based on directed assignments, run and rework projects, improving them pushing them back up to the source repo. And editing and extending the projects to create your own.  
+* Create short screen-recorded walkthrough videos with no audio  
+* Collaborate via GitHub issues with video conference or email check-ins
+
+---
+
+## **Time Commitment**
+
+* 4–8 hours per week  
+* Flexible schedule (built for students)  
+* Weekly or bi-weekly video calls to track progress and unblock issues  
+* Async support via email/chat as needed
+
+---
+
+## **Requirements**
+
+* No prior experience required. Preference given to current a CS majors  
+* Comfortable learning independently and documenting what you find  
+* Able to record screen videos (no audio required)  
+* No prior Python experience required. You should be enrolled in or have completed at least AP CS A or the equivalent of the first University of California CS course on syntax, ideally data structures.
+
+---
+
+## **Key Highlights of the Course**
+
+* **Visual Learning:** Visual game learning for data structures, loops, conditionals, core CS  
+* **Fundamentals:** Course teaches first-year CS fundamentals needed as the basis for progression into courses on algorithms and more advanced data structures needed for interviews and entry-level jobs  
+* **Apps for Interviews:** Build working apps you can confidently explain and defend
+
+---
+
+## **About the Course**
+
+This free course is built for early-career computer science students and high-school students exploring CS. The goal is simple: help learners become internship- and interview-ready by building real Python applications they can demo and explain.
+
+Instead of focusing only on command-line exercises and abstract problem sets, the course teaches Python through interactive visual applications where code immediately controls what appears on screen. This makes programming concepts tangible and helps students develop confidence faster.
+
+As students progress, they learn industry-aligned patterns like state management, asynchronous programming, separation of concerns, and deployment workflows from local development to the cloud. In later chapters, students build a real AI application using a local language model, including a chat interface with streaming responses and an understanding of key architectural tradeoffs.
+
+By the end, students have projects suitable for a strong high-school portfolio, internship conversations, or early technical interviews.
+
+---
+
+## **Who This Is For**
+
+This role is a strong fit for students or novice developers who want experience with modern, Python-first application building and AI-era development workflows—especially those who:
+
+* Prefer Python on the backend (and want to stay Python-first)  
+* Want exposure to modern async patterns and LLM communication  
+* Want to learn AI-enhanced developer workflows. The course focuses on using Cursor IDE.  
+* Want real Git/GitHub experience (issues, PRs, review cycles)
+
+---
+
+## **Mentorship & Support**
+
+* Weekly or bi-weekly meetings with an experienced mentor  
+* Structured learning path with tutorials and GitHub issues  
+* Git/GitHub support: branching, commits, PRs, and code review basics  
+* Professional reference from Jesse Casman, President of Oppkey  
+* Resume-ready experience (unpaid internship-style project work)
+
+---
+
+## **Career Benefits**
+
+* Build a portfolio project that looks and feels like real software  
+* Develop evidence you can discuss in interviews (what you built, why it works, tradeoffs)  
+* Learn industry-standard workflows: documentation, reproducible steps, issues → fixes  
+* Gain practical exposure to AI application architecture and integration
+
+---
+
+## **How to Apply**
+
+Apply through Handshake. After your Handshake application is uploaded, email:  
+Jesse Casman — jcasman@oppkey.com  
+Subject line suggestion: Handshake Application Submitted — Student Software Developer (Python Courseware)

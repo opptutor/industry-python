@@ -1,5 +1,7 @@
 # Industry Python Blog
 
+[Free Python Course](https://industry-python.thinkific.com/products/courses/industry-projects-with-python)
+
 A Quarto-based blog for Industry Python content.
 
 ## Adding a New Blog Post
