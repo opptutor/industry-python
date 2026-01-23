@@ -1,0 +1,44 @@
+---
+title: "Computer Science Majors Job Outlook"
+author: "Oppkey Staff"
+date: "2026-01-23"
+categories: [market]
+---
+
+The most recent U.S. Bureau of Labor Statistics employment projections show
+strong growth in jobs that computer science majors can apply to.
+
+## Opportunity
+
+The [BLS Fastest growing occupations table](https://www.bls.gov/emp/tables/fastest-growing-occupations.htm)
+lists these occupations that new graduates can apply to.
+
+
+| Employment Title |  Projected Job Growth (Net New Jobs 2024-2034) | Percentage Change | Median Wage 2024 |
+| --- | --- | --- |
+| Information security analyst | 52,100  | 28.5% increase  | $124,910 |
+| Data scientist | 82,500  | 33.5% increase | $112,590 |
+| Software developer | 267,700  | 15.8% increase | $133,080 |
+
+## Preparation
+
+To prepare for these jobs, get the following skills while you are in college.
+
+| Employment Title | Required Skills |
+| --- | --- |
+| Information security analyst | TCP/IP, DNS, HTTP/S, firewalls, and VPNs, SQL injection, cloud security basics (IAM, logging, network rules) |
+| Data scientist | [pandas](https://pandas.pydata.org/), NumPy, matplotlib, [seaborn](https://seaborn.pydata.org/), scikit-learn, SQL, statistics |
+| Software developer | data structures, algorithms, one backend stack (FastAPI, Spring, Express), git, if interested in AI-enabled systems (PyTorch, sentence-transformers, vector databases for search and retrieval-augmented generation) |
+
+
+## Tips
+
+- Get internships while you are an undergraduate.
+- To get the internship, show proof of applied skills through projects.
+- Apply to both large and small companies with under 30 people.  It may be easier to get work at smaller companies
+  and leverage that experience for bigger opportunities.
+
+---
+
+Free [Industry Python course](https://industry-python.thinkific.com/products/courses/industry-projects-with-python) -
+project-based practice for building real-world skills and GitHub-ready portfolios
