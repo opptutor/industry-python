@@ -15,6 +15,8 @@ To: <Jesse Casman> jcasman@oppkey.com
 Subject: Application Request — Student Software Architecture Tester
 ```
 
+These projects supplement our [Free Industry Python Course](https://industry-python.thinkific.com/products/courses/industry-projects-with-python)
+
 ## Example Projects
 
 
