@@ -38,6 +38,12 @@ To prepare for these jobs, get the following skills while you are in college.
 - Apply to both large and small companies with under 30 people.  It may be easier to get work at smaller companies
   and leverage that experience for bigger opportunities.
 
+## Resources
+
+* [US BLS Occupational Outlook Handbook for Software Developers](https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm#tab-6)
+* [US BLS Employment Projections - National Employment Matrix](https://data.bls.gov/projections/nationalMatrix?queryParams=15-1252&ioType=o)
+
+
 ---
 
 Free [Industry Python course](https://industry-python.thinkific.com/products/courses/industry-projects-with-python) -
