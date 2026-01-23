@@ -1,5 +1,5 @@
 ---
-title: "Example Assigned Industry Python Projects"
+title: "Industry Python Extra Supervised Projects"
 author: "Craig Oda"
 date: "2026-01-22"
 categories: [uv, deployment]
