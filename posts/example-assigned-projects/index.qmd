@@ -150,7 +150,8 @@ You are not implementing the L2 algorithm — you are selecting a distance metri
 Thus, the concepts below are actually usable with minimal knowledge.  However, you may need to
 know what the word means. 
 
-Keep in mind that usually AI engineers and ML engineers select models, metrics, and indexes, rather than re-implementing the math.  You can do it if you know what the vocabulary means.
+Keep in mind that usually AI engineers and ML engineers select models, metrics, and indexes, rather than re-implementing the math.  You can do it if you know what the vocabulary means without having to understand
+the more complex math.
 
 - Sentence-Transformers — A Python library that uses pretrained transformer models to create embeddings for sentences and paragraphs.
 - PyTorch — A deep learning framework commonly used to run and train neural network models. Automatically
