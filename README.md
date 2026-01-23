@@ -162,3 +162,8 @@ No manual deployment needed!
 
 - [Quarto Documentation](https://quarto.org/)
 - [Quarto Blog Format](https://quarto.org/docs/websites/website-blog.html)
+
+
+## VSCode or Cursor Extensions
+
+![docs/quarto-extension.png](docs/quarto-extension.png)

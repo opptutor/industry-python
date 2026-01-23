@@ -1,0 +1,175 @@
+---
+title: "Example Assigned Industry Python Projects"
+author: "Craig Oda"
+date: "2026-01-22"
+categories: [uv, deployment]
+---
+
+A small group of elite students are working with Jesse Casman, president of Oppkey, in
+one-on-one mentorships to explore subjects they are interested in.
+
+If you are interested in applying this program, send Jesse a note:
+
+```
+To: <Jesse Casman> jcasman@oppkey.com
+Subject: Application Request — Student Software Architecture Tester
+```
+
+## Example Projects
+
+
+### uv versus pip (and friends)
+
+Investigate uv as an all-in-one Python package/project manager designed to replace multiple
+tools (e.g., pip, pip-tools, pipx, pyenv, virtualenv). Test the workflow for
+students building portfolio projects.
+
+### Deploying a portfolio project to free/low-cost PaaS
+
+Test deployment workflows that students can realistically use for internship applications
+and interviews (examples: Fly.io or Leapcell). Document tradeoffs, gotchas, costs, reliability,
+and what to say in interviews.
+
+### Deploying to GitHub Pages + checking latency/UX risks
+
+Deploy a portfolio app via GitHub Pages (as an example of a common free deployment option)
+and evaluate anything that could create a bad first impression (load times, cold starts, asset
+sizing, sluggish UI, etc.). Provide recommendations for a “clean demo” experience.
+
+
+### Use PyTorch with `sentence-transformers` package to Run Inference and Embed Sentences
+
+Convert sentences into vectors using the Python
+[sentence-transformers](https://pypi.org/project/sentence-transformers/) package.
+
+Sentence-Transformers is a PyTorch-based Python library that performs
+model inference to turn text into numeric vectors (called embeddings),
+which are commonly stored in a vector database and used in
+semantic search and RAG (Retrieval-Augmented Generation) systems to
+find and retrieve information by meaning instead of just keywords.
+
+Example:
+
+```python
+sentences = [
+    "The weather is lovely today.",
+    "It's so sunny outside!",
+    "He drove to the stadium.",
+]
+embeddings = model.encode(sentences)
+print(embeddings.shape)
+# => (3, 384)
+```
+
+### Vector Database Basics with Faiss
+
+After you can run inference with a PyTorch-based sentence-transformers model
+to generate embeddings, the next step is to store those vectors in a
+vector index so you can perform fast nearest-neighbor search (similarity search).
+
+FAISS (Facebook AI Similarity Search) is a high-performance C++ library with a
+Python interface that provides vector indexing for semantic search and RAG pipelines.
+
+Goals
+
+- Generate embeddings for a list of sentences
+- Create a FAISS index with the correct vector dimension
+- Add embeddings to the index
+- Run a similarity query (k-nearest neighbors)
+- Map search results back to the original text
+
+See example below from a game.  You can start off by running this and then test different behaviors.
+
+```python
+import faiss
+import numpy as np
+from sentence_transformers import SentenceTransformer
+
+# Load a model to convert text to vectors (explicitly use CPU)
+model = SentenceTransformer("all-MiniLM-L6-v2", device="cpu")
+
+# Some example sentences to store
+sentences = [
+    "The player enters Neo Kabukicho",
+    "A glowing ramen shop in the rain",
+    "The NPC remembers your last visit"
+]
+
+# Convert sentences to vectors (embeddings)
+vectors = model.encode(sentences)
+vectors = np.array(vectors).astype("float32")
+
+# Create a FAISS index to store and search vectors
+index = faiss.IndexFlatL2(384)  # 384 = dimension of our embeddings
+index.add(vectors)
+
+# Search for similar sentences
+query = "The player walks into a rainy street"
+q_vec = model.encode([query]).astype("float32")
+
+# Find the 2 most similar sentences
+D, I = index.search(q_vec, k=2)
+
+# Print the results
+for i in I[0]:
+    print(sentences[i])
+
+```
+
+### “Quizlet-Style” Vocabulary Trainer for Vector Databases
+
+Build a small flashcard web app that helps students learn required
+AI/embedding vocabulary through repetition. The app will present a term,
+accept a self-check (or short typed definition), and track progress.
+
+You may implement either:
+
+* Option A (Web): FastAPI backend + Tailwind CSS + HTMX + Alpine.js frontend
+* Option B (Desktop/Web): Flet app (single Python codebase)
+
+Note that it is easier to use Flet.
+
+#### Example Vocabulary for Quiz
+
+Adapt to your own preference. I often find that the terminology sounds intimidating, but the actual usage is simple. For example, kNN (k-nearest neighbors) in FAISS is just a function call:
+
+`D, I = index.search(q_vec, k=2)`
+
+
+This returns:
+
+* D = distances to the nearest vectors
+* I = indices of the nearest vectors in your dataset
+
+To use the difficulty-sounding L2 Distance (Euclidean distance) with a 384-dimensional embedding, you simply create the index like this:
+
+`index = faiss.IndexFlatL2(384)`
+
+You are not implementing the L2 algorithm — you are selecting a distance metric and letting FAISS handle the math internally. The vector dimension must match the embedding model's output size, or FAISS will throw an error.
+
+Thus, the concepts below are actually usable with minimal knowledge.  However, you may need to
+know what the word means. 
+
+Keep in mind that usually AI engineers and ML engineers select models, metrics, and indexes, rather than re-implementing the math.  You can do it if you know what the vocabulary means.
+
+- Sentence-Transformers — A Python library that uses pretrained transformer models to create embeddings for sentences and paragraphs.
+- PyTorch — A deep learning framework commonly used to run and train neural network models. Automatically
+  installed with sentence-transformers
+- Transformer — A neural network architecture that powers many modern language models by learning relationships between words in context.
+- Pretrained Model — A model that has already learned from a large dataset and can be reused without training from scratch.
+- Inference — Running a trained model on new input to produce an output (e.g., generating embeddings).
+- Embedding — A numeric representation of text meaning, produced by a model.
+- Vector — A list/array of numbers; embeddings are vectors.
+- Vector Dimension — The number of values in the vector (e.g., 384 numbers per embedding).
+- Similarity Search — Finding items whose embeddings are closest to a query embedding.
+- Nearest Neighbors (kNN) — The top k most similar vectors to a query vector.
+- Distance Metric — The math used to measure closeness between vectors (e.g., L2 distance, cosine distance).
+- Cosine Similarity — A measure of similarity based on the angle between two vectors (often used for text embeddings).
+- L2 Distance (Euclidean) — A distance measure based on straight-line distance between vectors.
+- FAISS — A library for building and searching vector indexes efficiently (commonly used for similarity search).
+- Index (Vector Index) — A data structure that stores vectors to enable fast similarity search.
+- Indexing — Adding vectors into a vector index so they can be searched later.
+- Query Vector — The embedding produced from a user’s query text.
+- Retrieval — Fetching the most relevant stored items based on similarity search results.
+- RAG (Retrieval-Augmented Generation) — A pattern where retrieved documents are fed to an LLM to produce better answers.
+- Batching — Processing multiple inputs at once for efficiency during inference (common in production systems).
