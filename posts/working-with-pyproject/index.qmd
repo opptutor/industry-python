@@ -5,7 +5,9 @@ date: "2026-01-14"
 categories: [tips, uv]
 ---
 
-### Join our course and get prepared for internships and interviews! [https://industry-python.thinkific.com/products/courses/industry-projects-with-python](https://industry-python.thinkific.com/products/courses/industry-projects-with-python)
+![](uv-logo.png)
+
+Join our [Industry Projects for Python](https://industry-python.thinkific.com/products/courses/industry-projects-with-python) course and get prepared for internships and interviews!
 
 ### update code samples on learning platform to use flet 0.80 using [uv sync –upgrade](https://docs.astral.sh/uv/reference/cli/#uv-sync)
 
@@ -91,3 +93,5 @@ dependencies = [
    "flet[all]~=0.80",  
 ]
 ```
+
+Join our [Industry Projects for Python](https://industry-python.thinkific.com/products/courses/industry-projects-with-python) course and get prepared for internships and interviews!
