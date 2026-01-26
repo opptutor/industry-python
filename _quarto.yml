@@ -4,6 +4,7 @@ project:
 
 website:
   title: "Industry Python Blog"
+  favicon: "assets/favicon.ico"
   description: "A free Python course and industry-focused blog covering real-world app development, FastAPI, Flet, databases, deployment, and local AI with Ollama, alongside career and job market analysis, skills trends, and workforce data to help students and developers align technical learning with industry demand."
   site-url: "https://oppkey.github.io/industry-python/"
   google-analytics: "G-FQP9NNFEE2"
@@ -20,5 +21,3 @@ format:
       - cosmo
       - brand
     css: styles.css
-
-
