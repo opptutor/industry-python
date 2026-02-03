@@ -1,0 +1,23 @@
+---
+title: "Why AI Headlines Shouldn’t Scare CS Students: AI-Washing and the Reality of Tech Layoffs"
+author: "Oppkey Staff"
+date: "2026-02-03"
+categories: [market]
+---
+The NY Times recently published an article on [A.I. Washing](https://www.nytimes.com/2026/02/01/business/layoffs-ai-washing.html). Companies are increasingly pointing to artificial intelligence as a reason for cutting jobs — even when the real causes may include overhiring, shifting markets, or financial pressure.
+
+The article highlights that more than 50,000 layoffs in 2025 have cited AI as a factor. Major companies like Amazon, Pinterest, and HP have all pointed to AI-driven restructuring when announcing job cuts. But researchers and economists are skeptical of how much AI is actually responsible right now. [Forrester](https://www.forrester.com/blogs/ai-and-automation-will-take-6-of-us-jobs-by-2030/) notes that when clients say they are replacing staff with AI, nine out of 10 have no mature AI solution in place — suggesting many cuts are financially driven with AI as a scapegoat.
+
+Some experts call this trend "AI-washing" — framing financially motivated layoffs as a forward-looking AI strategy. It's an investor-friendly message: We're modernizing, we're efficient, we’re future-ready.
+
+Research from the [Yale Budget Lab](https://budgetlab.yale.edu/research/evaluating-impact-ai-labor-market-current-state-affairs) suggests AI has not yet meaningfully shifted the overall job market.
+
+Much of the tech-sector job loss since 2022 appears to be a correction after massive pandemic-era overhiring — not a wave of automation replacing engineers.
+
+Want to build real Python skills and portfolio-ready projects? Check out our free course [Industry Projects with Python](https://industry-python.thinkific.com/products/courses/industry-projects-with-python).
+
+Resources:
+
+* Kelley, L. (2026, February 1). Did A.I. take your job? Or was your employer 'A.I.-washing'? *The New York Times*. <https://www.nytimes.com/2026/02/01/business/layoffs-ai-washing.html>
+* Gownder, J.P. (2026, January 13). AI and automation will take 6% of US jobs by 2030. *Forrester*. <https://www.forrester.com/blogs/ai-and-automation-will-take-6-of-us-jobs-by-2030/>
+* Gimbel, M., Kinder, M., Kendall, J., & Lee, M. (2025, October 1). *Evaluating the impact of AI on the labor market: Current state of affairs*. The Budget Lab at Yale. <https://budgetlab.yale.edu/research/evaluating-impact-ai-labor-market-current-state-affairs>
