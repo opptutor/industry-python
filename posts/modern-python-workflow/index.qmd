@@ -1,0 +1,79 @@
+---
+title: "Modern Python Full-Stack Workflow"
+author: "Craig Oda"
+date: "2026-02-08"
+categories: [python]
+---
+This post summarizes my full article on building enterprise-ready full-stack applications using Python and MVC architecture.
+
+**Read the full blog here:**  
+https://dzone.com/articles/building-modern-full-stack-python-applications-mvc
+
+---
+
+# MVC Architecture Still Powers Modern Python Applications
+
+Model-View-Controller (MVC) separates applications into three layers:
+
+- **Model** — business logic and data  
+- **View** — user interface  
+- **Controller** — application logic and coordination  
+
+This separation improves maintainability, scalability, and testability. MVC works across modern Python systems, including APIs, desktop apps, mobile apps, and AI-powered applications.
+
+Frameworks like FastAPI and Flet make it easy to implement clean MVC architecture.
+
+---
+
+# Python Now Supports the Entire Full Stack
+
+Python is widely used in AI development and is increasingly used across the full application stack.
+
+Developers can use:
+
+- **FastAPI** for backend APIs  
+- **Flet** for desktop and web interfaces  
+- **Streamlit** for data applications  
+
+Using Python across the stack reduces complexity and allows business logic to be reused across multiple interfaces.
+
+---
+
+# Modern Tooling Makes Python Enterprise-Ready
+
+Recent tools have significantly improved Python development:
+
+- **uv** — fast package and environment management  
+- **Ruff** — fast linting and formatting  
+- **mypy** — static type checking  
+- **GitHub Actions** — automated testing and validation  
+
+These tools improve reliability and make Python suitable for large production systems.
+
+---
+
+# Example Architecture: FastAPI + Flet
+
+A clean MVC structure might look like:
+
+```text
+project/
+├── api/ # Controller layer
+├── services/ # Model layer
+├── ui/ # View layer
+└── main.py
+```
+
+This design allows developers to swap UI frameworks without changing backend logic, making systems easier to scale and maintain.
+
+---
+
+# Conclusion
+
+Python has evolved into a complete platform for full-stack and AI-driven applications. Combined with MVC architecture and modern tooling, developers can build scalable, maintainable, enterprise-ready systems entirely in Python.
+
+---
+
+# Free Python Course
+
+[Industry Python](https://industry-python.thinkific.com/products/courses/industry-projects-with-python)
